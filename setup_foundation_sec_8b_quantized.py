@@ -17,7 +17,7 @@ def check_requirements():
 
 def load_model():
     print("Loading Foundation-Sec-8B model and tokenizer from local directory...")
-    model_path = r"D:\AI\Models\fdtn-ai\Foundation-Sec-8B"
+    model_path = "D:/AI/Models/fdtn-ai/Foundation-Sec-8B"
     
     if not os.path.exists(model_path):
         raise RuntimeError(f"Model directory {model_path} not found. Please download the model.")
